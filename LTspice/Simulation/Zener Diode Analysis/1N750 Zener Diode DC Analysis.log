@@ -1,0 +1,41 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\SPrabha\Documents\LTspice\1N750 Zener Diode DC Analysis.asc
+Start Time: Thu Mar  5 23:18:03 2026
+solver = Normal
+Maximum thread count: 22
+
+
+
+v1: Missing value, assumed 0V @ DC
+.step temp=25°C
+.OP point found by inspection.
+
+
+
+.step temp=50°C
+
+
+
+.step temp=75°C
+
+
+
+.step temp=100°C
+
+
+
+.step temp=125°C
+
+
+
+.step temp=150°C
+
+
+
+.step temp=175°C
+tnom = 27
+temp = 200
+method = modified trap
+.step temp=200°C
+Total elapsed time: 0.359 seconds.
+
